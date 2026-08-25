@@ -10,7 +10,7 @@ from zoneinfo import ZoneInfo
 # 기본 설정
 # -------------------------------------------------
 st.set_page_config(
-    page_title="YouTube 경쟁사 모니터링",
+    page_title="YouTube 브랜드 모니터링",
     page_icon="📺",
     layout="wide"
 )
@@ -216,7 +216,7 @@ def get_video_details(api_key, video_ids, search_query, max_results):
 # -------------------------------------------------
 # 제목
 # -------------------------------------------------
-st.title("📺 YouTube 경쟁사 모니터링")
+st.title("📺 YouTube 브랜드 모니터링")
 
 st.caption(
     "YouTube 전체에서 특정 브랜드·키워드가 언급된 영상을 "
